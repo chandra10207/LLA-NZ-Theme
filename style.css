@@ -2,15 +2,16 @@
 
 /*
 Theme Name: Live Life Alarms
-Theme URI: https://livelifealarms.com.au/
-Author: Bob
+Theme URI: https://livelifealarms.co.nz/
+Author: Bob, Chandra Shekhar Pandey
+Version: 1.1
 */
 
 
 
 @font-face {
     font-family: "awb-icons";
-    src: url("https://livelifealarms.co.nz/wp-content/themes/lla/fonts/awb-icons.ttf");
+    src: url("/wp-content/themes/lla/fonts/awb-icons.ttf");
 }
 body, ul, li, p, a, div, section, h1, h2, h3 {
 	margin:  0px;
@@ -60,7 +61,7 @@ a:hover {
 }
 
 .boxed-row {
-	max-width:  1280px;
+	max-width:  1300px;
 	margin:  auto;
 }
 
@@ -331,6 +332,7 @@ a.mini-cart-item:hover p {
 /* Mobile Menu */
 .mobile-menu {
     display: none;
+    min-height: 90vh;
 }
 
 .mobile-menu-top>div {
@@ -338,6 +340,7 @@ a.mini-cart-item:hover p {
     align-items: center;
     justify-content: flex-end;
     padding-right: 10px;
+    gap: 10px;
 }
 
 .mobile-cart {
@@ -2069,7 +2072,7 @@ article.type-post {
     position: absolute;
     z-index: 10;
     width: 100%;
-    display: none;
+    display: block;
 }
 
 .master-navigators .master-prev {
@@ -2135,6 +2138,7 @@ article.type-post {
     top: 50%;
     left: 50%;
     cursor: pointer;
+    z-index: 11 !important;
 }
 
 .in-frame {
@@ -2246,10 +2250,16 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+.variations tr {
+	padding-bottom: 10px;
+}
 .variations td.value {
 	position:  relative;
 	border: 1px solid #d2d2d2;
 	padding: 0;
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 .select-parent:active {
@@ -2295,7 +2305,10 @@ table.variations {
 
 .variations select {
     font: 100% Arial, Helvetica, sans-serif !important;
-    font-size: 13px !important;
+    font-size: 1rem !important;
+    font-weight: 600;
+    /* border: 1px solid #d2d2d2; */
+    /* margin-bottom: 15px; */
 }
 
 
@@ -3286,6 +3299,7 @@ h1.page-title span {
 	
 	.tagline-holder, .top-link-holder {
 	    margin-top: 10px;
+
 	}
 	
 	.pad-box {
@@ -3380,6 +3394,11 @@ h1.page-title span {
     #eway_credit_card_form .submit.buy.button {
         margin-top: 10px;
     }
+
+    	.tagline-holder, .top-link-holder {
+	  display: none;
+        
+	}
 }
 
 @media only screen and (max-width:500px) {
