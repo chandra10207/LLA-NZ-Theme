@@ -3425,3 +3425,26 @@ h1.page-title span {
 .main-content.product-1240 .post-1240 .price
 { display: none !important;}
 
+.wc-block-components-button,
+.wc-block-components-button *,
+.wc-block-components-button:hover{
+background-color: red;
+color: #fff;
+font-weight: 600;
+}
+
+.wc-block-components-radio-control--highlight-checked .wc-block-components-radio-control-accordion-option--checked-option-highlighted, .wc-block-components-radio-control--highlight-checked label.wc-block-components-radio-control__option--checked-option-highlighted {
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1.5px green;
+    margin-bottom: 15px;
+}
+
+.wc-block-checkout__payment-method .wc-block-components-radio-control-accordion-option .wc-block-components-radio-control__label {
+   
+    font-weight: bold;
+}
+
+.wp-block-woocommerce-checkout p {
+    font-size: 16px;
+    font-weight: 500;
+}
