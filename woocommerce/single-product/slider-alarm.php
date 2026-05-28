@@ -27,7 +27,7 @@ if ( ! function_exists( 'wc_get_gallery_image_html' ) ) {
     
     <div class="master-display">
         <div class="master-display-item" type="image" index="1">
-            <?php echo wp_get_attachment_image(1127, 'full');?>
+            <?php echo wp_get_attachment_image(1458, 'full');?>
         </div>
         
         <div class="master-display-item" type="iframe-video" index="2">
