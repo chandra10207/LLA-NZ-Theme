@@ -64,10 +64,51 @@
                             </div>
                             <div class="accordion-item">
                                 <div class="accordion-title">
-                                    <h3>What's different with the 2025 model?</h3>
+                                    <h3>What’s New in the 2026 LiveLife Alarm Pendant (Simple Summary)</h3>
                                 </div>
                                 <div class="accordion-content">
-                                    <p>The new 2025 Live Life Alarms model pendant now comes with updated hardware and software. It has an improved battery life and antenna design. We have also worked to improve the waterproof capability. We’ve also made a lot of updates behind the scenes, such as but certainly not limited to, new SMS commands, improvements to text message formatting, improved mobile network support, algorithm improvements, ability to change voice files from the pendant over the air, improved interoperability with the supplied beacon and more…</p>
+                                    <div itemprop="text">
+
+                                    <h4>Clearer, more natural voice guidance</h4>
+                                    <p>We upgraded the audio system so the pendant now uses higher-quality sound files.
+                                        Voice prompts are clearer, louder and easier to understand, especially for older
+                                        users or in noisy environments.</p>
+                                    <br>
+
+                                    <h4>Now supports 16 languages</h4>
+                                    <p>The pendant can now speak&nbsp;16 different languages (English is default), making it
+                                        more accessible and easier to use for families from diverse backgrounds.</p>
+                                    <br class="a">
+                                    <h4>Smarter control of call behaviour</h4>
+
+                                    <p>We improved the way the pendant manages calls.
+                                        The device now&nbsp;automatically limits how long emergency or outgoing calls run,
+                                        preventing long or accidental call times.</p>
+                                    <br class="as">
+
+                                    <h4>New Power-Off Safety Alerts</h4>
+                                    <p>If the pendant is turned off—either manually or because the battery is very
+                                        low—it can now&nbsp;send an alert to the nominated contact.
+                                        This means carers or family are notified if the device is no longer active,
+                                        improving reliability and safety.</p>
+
+                                    <br class="a">
+
+                                    <h4 class="a">Clearer alert messages</h4>
+                                    <p>Power-off alerts now include:</p>
+                                    <ul>
+                                        <li>What happened</li>
+                                        <li>When it happened</li>
+                                        <li>Battery level</li>
+                                        <li>A location link</li>
+                                        <li>This gives carers everything they need to respond quickly.</li>
+                                        <li>More consistent and easy-to-manage alert settings</li>
+                                    </ul>
+                                    <p>Alerts for&nbsp;power-off&nbsp;and&nbsp;low battery&nbsp;now work the same way and always go to the
+                                        key contact you select.
+                                        This reduces confusion and ensures&nbsp;critical alerts always reach the right
+                                        person.</p>
+                                </div>
                                 </div>
                             </div>
                         </div>

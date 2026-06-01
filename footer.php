@@ -46,7 +46,7 @@
 			</div>
 		</div>
 		<div class="footer-copyright-area boxed-row pad-box">
-			<p class="copyright-text">© Copyright 2025. LiveLife Alarms. All rights reserved.</p>
+			<p class="copyright-text">© Copyright <?php echo date('Y'); ?>. LiveLife Alarms. All rights reserved.</p>
 			<p class="copyright-ABN">NZBN: 9429046616173</p>
 			<p class="copyright-links"><a href="/privacy-policy/">Privacy Policy</a>  |  <a href="/disclaimers/">Disclaimers</a></p>
 		</div>
