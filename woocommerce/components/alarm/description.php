@@ -4,7 +4,7 @@
 	<br>
 	<p>With the <strong>LiveLife</strong> Mobile Alarm you can go anywhere there is available mobile network coverage knowing help is just a <strong>press of a button away</strong>. It is perfect for people who want to feel safe when out and about – not just at home. There is no need to have a mobile phone. Avoid the hassles that old fashioned home based alarms have with the the broadband. The mobile alarm avoids voicemail and can be cycled to repeat the text and calling sequences. 2024 model – Improved battery, voice clarity & antenna.</p>
 	<br>
-	<p>A simple to use, stylish pendant that works with available Spark/Vodafone mobile network coverage(<strong>4GX</strong> with 3G rollback). With built in <strong>GPS</strong> tracking the pendant calls up to 6 of your emergency contacts (can call ‘111’). At the same time it sends up to 6 help messages showing the wearers location on <strong>Google Maps</strong> accurate to approximately 2 metres. <strong>Unlimited emergency voice calls & texts.</strong> No false alarms & <span class="popup-on-click" popup-id="sound">your alarm “talks” to you</span>, guiding you through the emergency help sequence. 4 to 5 day battery life. Fast recharge. The quality and clarity of the 2 way voice is amazing.</p>
+	<p>A simple to use, stylish pendant that works with available Spark/Vodafone mobile network coverage(<strong>4GX</strong> with 3G rollback). With built in <strong>GPS</strong> tracking the pendant calls up to 6 of your emergency contacts (can call ‘111’). At the same time it sends up to 6 help messages showing the wearers location on <strong>Google Maps</strong> accurate to approximately 2 metres. <strong>Unlimited emergency voice calls & texts.</strong> No false alarms & <span class="popup-on-click" popup-id="sound">your alarm “talks” to you</span>, guiding you through the emergency help sequence. 4 to 5 day battery life. Fast recharge. The quality and clarity of the 2 way voice is amazing. LiveLife emergency alarm watch comes in your choice of <a class="show-popup blue bold" target="languages-options" rel="noopener"><strong>16 languages. </strong></a></p>
 	<br>
 	<p>When one of the emergency contacts answers the wearer is able to <strong>talk hands free</strong> through the <strong>shower proof</strong> pendant. Anyone who knows the mobile number of the pendant can call it and it will answer in speakerphone mode. German design, Swiss designed GPS, <strong>red<span style="color:#e40030;">dot</span></strong> award winner.</p>
 	<br>
@@ -18,6 +18,7 @@
 			<li><p>Uses Bluetooth, GPS, wifi &amp; Google maps to send your location to your contacts.</p></li>
 			<li><p>Family &amp; friends can call the pendant. Pendant can call out to nominated contacts.</p></li>
 			<li><p>Avoids voicemail. <span class="popup-on-click" popup-id="sound">Smart voice guide</span> “talks” you through your emergency.</p></li>
+			<li><p>Smart Voice Alerts Available in <a class="show-popup blue bold" target="languages-options" rel="noopener"><strong>16 languages. </strong></a> .</p></li>
 			<li><p>Price includes SIM card, setup and delivery. Completely ready to go out of the box.</p></li>
 			<li><p>No contracts or monitoring fees. 12 month warranty. 30 day return policy.</p></li>
 			<li><p>Best possible indoor &amp; outdoor mobile signal strength using 4GX with 3G rollback.</p></li>
@@ -109,3 +110,24 @@
 	</div>
 </div>
 <!-- Popup -->
+
+
+<!-- Popup -->
+<div id="languages-options" popup-id="languages-options" class="pop-up popup">
+	<div class="popup-block">
+		<div class="popup-header">
+			<a href="" class="close"></a>
+		</div>
+		<div class="popup-content product-details">
+			<div class="alignMiddle">
+			   <h3 class="inner-text"><span class="blue bold">16 languages options available </span><span class="grey thin"</span></h3></br>
+<p>The voice alerts that come from the Live Life Alarm are available in 16 languages. They are English (default), Mandarin, Cantonese, Greek, Italian, Vietnamese, Korean, Urdu, Spanish, Portuguese, Japanese, Hindi, German, French, Filippino, and Arabic. </p>
+<p>All these voice alerts are crystal clear and have been pre-recorded by native vocal artists.</p>
+<p></br>
+<!--<a class="button-submit" href="/livelife-pedant-and-watch-languages-options/" target="_blank" title="Click here to hear sample audios for 15 languages">Hear Voice Prompts</a>-->
+</br></br></p>
+			</div>
+		</div>
+	</div>
+</div>
+

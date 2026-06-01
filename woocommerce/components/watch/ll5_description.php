@@ -6,7 +6,7 @@
 	<br>
 	<p>A simple to use, stylish watch that works where there is available Spark/Vodafone mobile network coverage (<strong>4GX</strong> with 3G rollback). With built in <strong>GPS</strong> tracking the watch calls up to 6 of your emergency contacts (can call ‘111’). At the same time it sends up to 6 help messages showing the wearers location on <strong>Google Maps</strong> accurate to approximately 2 metres. <strong>Unlimited emergency voice calls & texts.</strong> No false alarms & your <span class="show-popup" target="sound">watch “talks” to you</span>, guiding you through the emergency help sequence. Up to 2 day battery life with fast recharge. The quality and clarity of the 2 way voice is amazing.</p>
 	<br>
-	<p>When one of the emergency contacts answers the wearer is able to <strong>talk hands free</strong> through the <strong>shower proof</strong> watch. Anyone who knows the mobile number of the watch can call it and it will answer in <strong>speakerphone</strong> mode. Also includes steps counter and choice of 5 watch face styles to choose from and comes in your choice of <a class="show-popup blue bold" target="languages-options" rel="noopener"><strong>16 languages. </strong></a></p>
+	<p>When one of the emergency contacts answers the wearer is able to <strong>talk hands free</strong> through the <strong>shower proof</strong> watch. Anyone who knows the mobile number of the watch can call it and it will answer in <strong>speakerphone</strong> mode. Also includes steps counter and choice of 30+ watch face styles included free & easy to change depending on your mood. LiveLife emergency alarm watch comes in your choice of <a class="show-popup blue bold" target="languages-options" rel="noopener"><strong>16 languages. </strong></a></p>
 	<br>
 	<p><strong>Main features</strong></p>
 	<div class="product-features">
@@ -21,6 +21,9 @@
 			<li><p>Price includes SIM card, setup and delivery. Completely ready to go out of the box.</p></li>
 			<li><p>No contracts or monitoring fees. 12 month warranty. 30 day return policy.</p></li>
 			<li><p>Best possible indoor & outdoor mobile signal strength using 4GX with 3G rollback.</p></li>
+			<li><p>30+ watch face styles included free & easy to change depending on your mood.</p></li>
+			<li><p>25+ watch wrist bands to choose from. Available in Silicone, Leather, Magnetic, Velcro, FOB and Flexible Knit styles.
+Available in Regular and Slim versions.</p></li>
 		</ul>
 		<?php echo wp_get_attachment_image(530,'full');?>
 	</div>

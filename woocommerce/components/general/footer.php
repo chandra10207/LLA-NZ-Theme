@@ -5,7 +5,7 @@
 <div class="org-slider-holder">
 	<div class="orgs-we-supply">
 		<div><?php echo wp_get_attachment_image(485,'full'); ?></div>
-		<div><?php echo wp_get_attachment_image(488,'full'); ?></div>
+		<?php /* <div><?php echo wp_get_attachment_image(488,'full'); ?></div> */ ?>
 		<div><?php echo wp_get_attachment_image(484,'full'); ?></div>
 		<div><?php echo wp_get_attachment_image(483,'full'); ?></div>
 		<div><?php echo wp_get_attachment_image(482,'full'); ?></div>
@@ -20,7 +20,7 @@
 		<div><?php echo wp_get_attachment_image(497,'full'); ?></div>
 		<div><?php echo wp_get_attachment_image(496,'full'); ?></div>
 		<div><?php echo wp_get_attachment_image(495,'full'); ?></div>
-		<div><?php echo wp_get_attachment_image(494,'full'); ?></div>
+		<div><?php echo wp_get_attachment_image(1509,'full'); ?></div>
 		<div><?php echo wp_get_attachment_image(493,'full'); ?></div>
 		
 		<div><?php echo wp_get_attachment_image(492,'full'); ?></div>

@@ -40,7 +40,7 @@ if ( ! function_exists( 'wc_get_gallery_image_html' ) ) {
         </div>
         
         <div class="master-display-item popup-on-click" type="image" index="3" popup-id="slider-3">
-            <?php echo wp_get_attachment_image(187, 'full');?>
+            <?php echo wp_get_attachment_image(1511, 'full');?>
         </div>
         
         <div class="master-display-item" type="image" index="4">
@@ -108,7 +108,7 @@ if ( ! function_exists( 'wc_get_gallery_image_html' ) ) {
             <?php echo wp_get_attachment_image(190, 'full');?>
         </div>
         <div class="master-thumbnail" type="image" index="3">
-            <?php echo wp_get_attachment_image(187, 'full');?>
+            <?php echo wp_get_attachment_image(1511, 'full');?>
         </div>
         <div class="master-thumbnail" type="image" index="4">
             <?php echo wp_get_attachment_image(184, 'full');?>
