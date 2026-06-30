@@ -227,7 +227,7 @@ function hide_variations_with_no_regular_price( $variation_data, $product, $vari
     $regular_price = $variation->get_regular_price();
 
     // Log for debugging (optional, remove in production)
-    error_log( 'Variation ID: ' . $variation->get_id() . ' | Regular Price: ' . ( $regular_price ? $regular_price : 'Empty' ) );
+    //error_log( 'Variation ID: ' . $variation->get_id() . ' | Regular Price: ' . ( $regular_price ? $regular_price : 'Empty' ) );
 
     // If the regular price is empty or not set, return null to hide the variation
     if ( empty( $regular_price ) || $regular_price === '' ) {

@@ -60,7 +60,7 @@
 	            );
 	    ?>
 	        <?php wp_nav_menu($args); ?>
-	    <ul>
+	    <ul class="mobile-only-ul" style="display: none;">
     	<li id="menu-item-232" class="has-child desktop-only">
     	    <a href="/cart/" id="cart-menu" class="<?php echo (!WC()->cart->is_empty() ? 'active' : ''); ?>" aria-label="Go to Cart"></a>
     	    <?php woocommerce_mini_cart(); ?>
