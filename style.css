@@ -915,8 +915,8 @@ audio {
 
 .single_add_to_cart_button {
     cursor: pointer;
-    border: none;
-    background: none;
+    /* border: none;
+    background: none; */
 }
 
 .variations table {
@@ -930,19 +930,25 @@ audio {
     border: none;
     border-radius: 0px;
     color: #111111;
-    -webkit-appearance: none;
-    text-overflow: "";
+    /* -webkit-appearance: none; */
+    /* text-overflow: ""; */
     cursor: pointer;
     width: 100%;
     padding-left: 15px;
 }
 
 .single_add_to_cart_button {
-    background-image: url('/wp-content/uploads/personal-medical-alarm-add-cart.png');
+    /* background-image: url('/wp-content/uploads/personal-medical-alarm-add-cart.png');
     background-color: transparent!important;
-    color: transparent!important;
-    width: 229px;
-    height: 73px;
+    color: transparent!important; */
+    background-color: #4a4c9a;
+    color: #fff;
+    border-radius: 30px;
+    /* width: 229px;
+    height: 73px; */
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 15px 30px;
 }
 
 #sidebar, .product_meta {
@@ -2252,6 +2258,8 @@ input[type=number] {
 
 .variations tr {
 	padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .variations td.value {
 	position:  relative;
@@ -2272,7 +2280,7 @@ input[type=number] {
 	border: none;
 	border-radius: 0px;
 	color: #111111;
-	-webkit-appearance: none;
+	/* -webkit-appearance: none; */
 	text-overflow:  "";
 	cursor: pointer;
 	width: 100%;
@@ -2295,8 +2303,15 @@ table.variations {
     text-align: right;
 }
 
+form.cart th.label{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
 .variations label {
-    display: none;
+    /* display: none; */
+    text-align: left;
+    text-transform: capitalize;
 }
 
 .add-to-cart-section select:focus {
@@ -2311,7 +2326,7 @@ table.variations {
     /* margin-bottom: 15px; */
 }
 
-
+/* 
 .select-arrow {
 	font-size:  16px;
 	background:  #fff;
@@ -2333,7 +2348,7 @@ table.variations {
 
 .select-arrow:active {
 	background: #eaeaea;
-}
+} */
 
 .add-to-cart-section select:active {
 	border: 1px solid #dadada;

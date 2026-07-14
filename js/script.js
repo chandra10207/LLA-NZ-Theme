@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {
 
-    jQuery('<div class="select-arrow" style="height: 40px; width: 40px; line-height: 40px;"></div>').insertAfter('select');
+    // jQuery('<div class="select-arrow" style="height: 40px; width: 40px; line-height: 40px;"></div>').insertAfter('select');
     
     //mobile menu
     jQuery('.mobile-menu-anchor').click(function(e) {

@@ -257,3 +257,18 @@ function hide_variations_no_price_js() {
         <?php
     }
 }
+
+add_filter( 'woocommerce_ship_to_different_address_checked', '__return_false' );
+
+add_action( 'wp_enqueue_scripts', 'lla_disable_woocommerce_state_select2', 100 );
+function lla_disable_woocommerce_state_select2() {
+    // Only target the checkout page to avoid breaking admin areas
+    if ( is_checkout() ) {
+        if ( class_exists( 'woocommerce' ) ) {
+            wp_dequeue_style( 'select2' );
+            wp_deregister_style( 'select2' );
+            wp_dequeue_script( 'selectWoo' );
+            wp_deregister_script( 'selectWoo' );
+        }
+    }
+}

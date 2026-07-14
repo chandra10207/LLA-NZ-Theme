@@ -326,18 +326,6 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
     				<?php do_action( 'woocommerce_checkout_shipping' ); ?>
     			</div>
     		</div>
-            <!-- Programing info -->
-        <div class="checkout-section pad-box">
-            <h2 class="checkout-heading merriweather"><span>Programming </span>Information</h2>
-            <div class="boxed-form free-programming-box checkout-txt-box">
-                <div>
-                    <p>We'll be in contact with you shortly after your order is complete.</p>
-                    <p>We'll ask you to give us up to 6 phone numbers you'd like pre-programmed.</p>
-                </div>
-                <img src="/wp-content/uploads/emergency-alarm-free-programming-1-1.png" alt="free setup before delivery">
-            </div>
-        </div>
-        <!-- Programing info -->
     		<?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>
     
     	<?php endif; ?>
@@ -363,6 +351,22 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
     <!-- After checkout -->
     <?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
     <!-- After checkout -->
+
+
+
+	
+            <!-- Programing info -->
+        <div class="checkout-section pad-box" style="padding-top: 50px;">
+            <h2 class="checkout-heading merriweather"><span>Programming </span>Information</h2>
+            <div class="boxed-form free-programming-box checkout-txt-box">
+                <div>
+                    <p>We'll be in contact with you shortly after your order is complete.</p>
+                    <p>We'll ask you to give us up to 6 phone numbers you'd like pre-programmed.</p>
+                </div>
+                <img src="/wp-content/uploads/emergency-alarm-free-programming-1-1.png" alt="free setup before delivery">
+            </div>
+        </div>
+        <!-- Programing info -->
     
     <!-- Postage notes -->
     <div class="boxed-form postage-notes checkout-txt-box">

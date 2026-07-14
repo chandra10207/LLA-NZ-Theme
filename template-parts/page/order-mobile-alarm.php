@@ -88,7 +88,7 @@
 								<option value="White">White</option>
 								<option value="Black">Black</option>
 							</select>
-							<div class="select-arrow" style="height: 40px; width: 40px; line-height: 40px;"></div>
+							<!-- <div class="select-arrow" style="height: 40px; width: 40px; line-height: 40px;"></div> -->
 						</div>
 					</div>
 					<div class="cart-button-section">
