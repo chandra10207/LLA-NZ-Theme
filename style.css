@@ -1098,7 +1098,14 @@ a.button, button.button:not(.single_add_to_cart_button) {
 }
 
 .woocommerce table.shop_table td.product-thumbnail {
-    width: 96%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.woocommerce ul#shipping_method li label {
+    color: green;
 }
 
 .woocommerce table.shop_table {
@@ -3414,6 +3421,30 @@ h1.page-title span {
 	  display: none;
         
 	}
+
+    #add_payment_method #payment ul.payment_methods, 
+    .woocommerce-cart #payment ul.payment_methods,
+     .woocommerce-checkout #payment ul.payment_methods {
+        padding: 1em 0;
+    }
+
+    .checkout .woocommerce-shipping-fields, #order_review {
+        padding: 20px 10px;
+    }
+
+    .payment_method_stripe .wc-payment-form{
+        padding: 0;
+    }
+
+    .checkout .woocommerce-billing-fields, .checkout .woocommerce-shipping-fields, #order_review {
+        padding: 20px 10px;
+    }
+
+    .pad-box {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
 }
 
 @media only screen and (max-width:500px) {
@@ -3462,4 +3493,11 @@ font-weight: 600;
 .wp-block-woocommerce-checkout p {
     font-size: 16px;
     font-weight: 500;
+}
+
+#add_payment_method #payment ul.payment_methods li, 
+.woocommerce-cart #payment ul.payment_methods li, 
+.woocommerce-checkout #payment ul.payment_methods li {
+   font-size: 1.1rem;
+    font-weight: 600;
 }
