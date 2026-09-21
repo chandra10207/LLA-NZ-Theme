@@ -30,7 +30,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 ?>
 <div class="checkout-wrapper product-details pad-box">
     <div class="checkout-top">
-        <h2 class="desktop-only merriweather"><img src="/wp-content/uploads/checkout-cart-icon.png"><span>Your Cart:</span> Summary</h2>
+        <h2 class="desktop-only merriweather"><img src="/wp-content/uploads/checkout-cart-icon.png"><span>Your Cart: </span> Summary</h2>
         
         <div>
             <div class="checkout-phone">
@@ -41,7 +41,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
                 <img src="/wp-content/uploads/emergency-alarm-free-programming-1-1.png">
             </div>
         </div>
-        <h2 class="mobile-only merriweather"><img src="/wp-content/uploads/checkout-cart-icon.png"><span>Your Cart:</span> Summary</h2>
+        <h2 class="mobile-only merriweather"><img src="/wp-content/uploads/checkout-cart-icon.png"><span>Your Cart: </span> Summary</h2>
     </div>
     <!-- Cart contents -->
     <?php do_action( 'woocommerce_before_cart' ); ?>
@@ -222,6 +222,9 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
     	<?php do_action( 'woocommerce_after_cart_table' ); ?>
     </form>
 
+
+	<?php /* 
+
     <div class="cart-collaterals cart_collateral_oncheckout boxed-form">
     	<div class="cart_totals <?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
     
@@ -305,12 +308,14 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
     </div>
     </div>
     	<?php do_action( 'woocommerce_after_cart_totals' ); ?>
+
+*/ ?>
     
     <?php do_action( 'woocommerce_after_cart' ); ?>
     <!-- Cart contents -->
 
     <!-- Form checkout -->
-    <h2 class="checkout-heading pad-box merriweather"><span>Billing </span>& <span>Shipping:</span></h2>
+
     <form name="checkout" method="post" class="checkout woocommerce-checkout" action="<?php echo esc_url( wc_get_checkout_url() ); ?>" enctype="multipart/form-data">
         
     	<?php if ( $checkout->get_checkout_fields() ) : ?>
@@ -318,6 +323,8 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
     		<?php do_action( 'woocommerce_checkout_before_customer_details' ); ?>
     
     		<div class="" id="customer_details">
+				    <h2 class="checkout-heading pad-box merriweather"><span>Billing </span>& <span>Shipping:</span></h2>
+
     			<div class="boxed-form">
     				<?php do_action( 'woocommerce_checkout_billing' ); ?>
     			</div>
