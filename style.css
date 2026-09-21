@@ -1106,6 +1106,7 @@ a.button, button.button:not(.single_add_to_cart_button) {
 
 .woocommerce ul#shipping_method li label {
     color: green;
+    font-weight: 600;
 }
 
 .woocommerce table.shop_table {
@@ -1285,8 +1286,8 @@ tr.order-total th, tr.order-total td {
 }
 
 .checkout .payment_methods .payment_box {
-    padding: 0px 20px !important;
-    width: 80% !important;
+    /* padding: 0px 20px !important;
+    width: 80% !important; */
 }
 
 .boxed-form {
@@ -2918,7 +2919,7 @@ h1.page-title span {
 	}
 	/* Form */
 	.checkout .payment_methods .payment_box {
-    padding: 0px 15px !important;
+    padding: 0px !important;
     width: 100% !important;
 } 
 	
@@ -3501,3 +3502,25 @@ font-weight: 600;
    font-size: 1.1rem;
     font-weight: 600;
 }
+
+.woocommerce-checkout #payment ul.payment_methods li {
+    border: 2px solid #BFBCB5 ;
+    margin-bottom: 20px;
+    padding: 5px 1rem;
+    border-radius:10px;
+}
+
+.woocommerce-checkout #payment .payment_methods li.wc_payment_method:has(input[name="payment_method"]:checked) {
+    border-color: #6F6EB9;
+    background: #fff;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li label {
+    min-width: 70%;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+ dl.variation dt{
+    display: none !important;
+ }

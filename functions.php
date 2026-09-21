@@ -272,3 +272,5 @@ function lla_disable_woocommerce_state_select2() {
         }
     }
 }
+
+add_filter('woocommerce_price_trim_zeros', '__return_true');
